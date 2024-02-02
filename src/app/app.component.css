@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+}
+
+.main-header {
+  padding: 2px;
+  background-color: #f0f0f0; /* Altere a cor de fundo conforme necessário */
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-link {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #333; /* Cor do link */
+}
+
+.horizontal-divider {
+  height: 1px;
+  background-color: #333; /* Cor da linha de divisão */
+  margin: 5px 0;
+}
+
+.bottom-header {
+  display: flex;
+  height: 60px;
+  width: 100%;
+}
+
+.logo-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo-section img {
+  width: 80px; /* Ajuste o tamanho conforme necessário */
+  margin-right: 10px;
+
+}
+
+.header-title {
+  flex: 5;
+  display: flex;
+  align-items: center;
+}
+
+.nav-pages {
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-pages div {
+  margin-left: 20px;
+}
