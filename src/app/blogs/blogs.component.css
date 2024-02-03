@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+.main-blog {
+  margin: 7px 0 0 21px;
+}
+
+.main-blog img {
+  width: 833px;
+}
+
+.main-blog h1, p{
+  color: black;
+}
