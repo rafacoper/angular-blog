@@ -2,14 +2,61 @@ a {
   text-decoration: none;
 }
 
+.blog-container {
+  margin: 7px 0 0 7px;
+  display: flex;
+}
+
 .main-blog {
-  margin: 7px 0 0 21px;
+  width: 65%; /* Main blog takes 65% of the screen */
+  margin-right: 20px; /* Add some space between main-blog and blog-grid */
 }
 
 .main-blog img {
-  width: 833px;
+  width: 100%; /* Make the image responsive within main-blog */
 }
 
-.main-blog h1, p{
+.blog-container h1, .blog-container p {
   color: black;
+}
+
+.highlight-text-mb p {
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.blog-grid {
+  flex-grow: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: space-between; /* Add space between items */
+}
+
+.blog-grid div {
+  width: calc(50% - 10px); /* Each item takes half the width minus spacing */
+  margin-bottom: 20px; /* Add some space between items */
+}
+
+.blog-grid img {
+  width: 100%; /* Make the images responsive within blog-grid items */
+}
+
+.highlight-text {
+  font-size: 10px;
+}
+
+.blog-grid {
+  width: 35%; /* Adjust as needed */
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Adjust spacing between grid items */
+}
+
+.blog-grid > div {
+  width: 100%;
+}
+
+.blog-grid img {
+  width: 100%;
 }

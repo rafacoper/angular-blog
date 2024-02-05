@@ -1,11 +1,55 @@
-<div class="main-blog">
-	<a href="https://blog.angular.io/introducing-angular-v17-4d7033312e4b">
-		<img src="../../assets/angular17.webp" alt="angular17" loading="lazy">
-		<div class="higthlight-text">
-      <h1>Introducing Angular v17</h1>
-      <p>Last month marked the 13th anniversary of Angulars red shield. AngularJS was the starting point for <br>
-        a new wave of JavaScript frameworks… Go to the profile of Minko Gechev Minko Gechev.
-      </p>
-		</div>
-	</a>
+<div class="blog-container">
+  <div class="main-blog">
+    <a href="mainBlogSection.link">
+      <img src="../../assets/angular17.webp" alt="angular17" loading="lazy">
+      <div class="highlight-text-mb">
+        <h1>{{mainBlogSection.blogTitle}}</h1>
+        <p>{{mainBlogSection.blogIntro}}</p>
+      </div>
+    </a>
+  </div>
+  <div class="blog-grid">
+    <div>
+      <a href={{docker.blogLink}}>
+        <img src="../../assets/dockersl.png" alt="docker" loading="lazy">
+        <div class="highlight-text">
+          <h1>{{docker.blogTitle}}</h1>
+          <p>{{docker.blogIntro}}</p>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a href="githubprofile.blogLink">
+        <img src="../../assets/github-prof.png" alt="github" loading="lazy">
+        <div class="higthlight-text">
+          <h1>{{githubprofile.blogTitle}}</h1>
+          <p>{{githubprofile.blogIntro}}<br>
+          </p>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a href="uiElements.blogLink">
+        <img src="../../assets/uxui-design.png" alt="uxdesign" loading="lazy">
+        <div class="higthlight-text">
+          <h1>{{uiElements.blogTitle}}</h1>
+          <p>{{uiElements.blogIntro}}<br>
+          </p>
+        </div>
+      </a>
+    </div>
+    <div>
+      <a href="codetoimprove.blogLink">
+        <img src="../../assets/codeToInprove-0.png" alt="improvements" loading="lazy">
+        <div class="higthlight-text">
+          <h1>{{codetoimprove.blogTitle}}</h1>
+          <p>{{codetoimprove.blogIntro}}<br>
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="">
+
+  </div>
 </div>
