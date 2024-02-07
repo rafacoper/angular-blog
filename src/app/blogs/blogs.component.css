@@ -31,67 +31,88 @@ a {
 .blog-aside {
   background-color: rgb(209, 217, 103);
   width: 35%;
-  justify-content: space-around;
+}
+
+.blog-aside-top {
+  background-color: rgb(120, 217, 103);
   display: flex;
-  flex-wrap: wrap;
-  padding: 5px;
+  width: 100%;
+  height: 50%;
+}
+
+.blog-aside-bottom {
+  background-color: rgb(217, 211, 103);
+  display: flex;
+  width: 100%;
+  height: 50%;
 }
 
 .first-quarter {
-  position: relative;
   background-color: rgb(74, 157, 201);
   width: 50%;
-  height: 50%;
-  padding: 3px;
-  /* margin: 2px; */
-}
-
-.second-quarter {
-  background-color: rgb(39, 41, 65);
-  width: 50%;
-  height: 50%;
-  padding: 3px;
-  /* margin: 2px; */
-}
-
-.third-quarter {
-  background-color: rgb(84, 95, 87);
-  width: 50%;
-  height: 50%;
-  padding: 3px;
-  /* margin: 2px; */
-}
-
-.fourth-quarter {
-  background-color: rgb(236, 240, 237);
-  width: 50%;
-  height: 50%;
-  padding: 3px;
+  display: flex;
+  flex-direction: column;
   /* margin: 2px; */
 }
 
 .first-quarter img {
-  width: 100%;
+  width: 70%;
+  height: 70%;
+  align-self: center;
+}
+
+
+.second-quarter {
+  background-color: rgb(39, 41, 65);
+  width: 50%;
+  /* margin: 2px; */
 }
 
 .second-quarter img {
   width: 100%;
+  height: 70%;
+  align-self: center;
 }
 
+.third-quarter {
+  background-color: rgb(84, 95, 87);
+  width: 50%
+  /* margin: 2px; */
+}
 .third-quarter img {
   width: 100%;
+  height: 70%;
+  align-self: center
+}
+
+.fourth-quarter {
+  background-color: rgb(236, 240, 237);
+  width: 50%
+  /* margin: 2px; */
 }
 
 .fourth-quarter img {
   width: 100%;
+  height: 70%;
+  align-self: center
 }
 
+.highlight-text {
+  height: 30%;
+}
 
+.highlight-text h1 {
+  font-size: 25px;
+}
+
+.highlight-text p {
+  font-size: 14px;
+}
 
 /* .highlight-text {
   position: relative;
 } */
-
+/*
 .highlight-text h1 {
   position: absolute;
   bottom: 3;
@@ -114,4 +135,4 @@ a {
 
 .highlight-text p {
   font-size: 14px;
-}
+} */
