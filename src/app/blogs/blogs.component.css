@@ -13,6 +13,7 @@ a {
   background-color: rgb(116, 175, 180);
   margin-right: 5px; /* Add some space between main-blog and blog-grid */
   width: 65%;
+  position: relative;
 }
 
 .main-blog img {
@@ -21,6 +22,16 @@ a {
 
 .blog-container h1, .blog-container p {
   color: black;
+}
+
+.highlight-text-mb {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  background-color: rgba(180, 98, 98, 0.7); /* cor de fundo com opacidade */
+  padding: 20px;
+  text-align: left;
 }
 
 .highlight-text-mb p {
@@ -76,7 +87,8 @@ a {
 
 .third-quarter {
   background-color: rgb(84, 95, 87);
-  width: 50%
+  width: 50%;
+  position: relative
   /* margin: 2px; */
 }
 .third-quarter img {
